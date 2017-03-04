@@ -1,4 +1,5 @@
-document.ready
+$(document).ready(function() {
+
 //Front-end parameters are search terms, number of entries returned, these are optional: start year, end year
 
 	//Query parameters 
@@ -58,5 +59,5 @@ document.ready
 			});
 
 };
-
+});
 
